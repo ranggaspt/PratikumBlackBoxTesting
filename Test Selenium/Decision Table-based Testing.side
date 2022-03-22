@@ -1,0 +1,476 @@
+{
+  "id": "a798fbe6-a158-4d4b-95e2-a1af37a450a1",
+  "version": "2.0",
+  "name": "Decision Table-based Testing",
+  "url": "http://localhost/perhitungan-nilai/login.php",
+  "tests": [{
+    "id": "680dc82d-3560-41f5-9c91-23395dda99b5",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "9a87e018-fbe1-4406-a8e2-660e2b4cd7f3",
+    "name": "Peringatan login 2x lagi",
+    "commands": [{
+      "id": "ab3a4f71-9be7-483d-88fb-e35dab0770f6",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/perhitungan-nilai/login.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb515f68-05e6-488d-b925-d459e7845655",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1054x848",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab71758d-86e5-404c-9159-759288b49ba7",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.itpw:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad0a5530-8146-48d5-bb3b-be489d48910e",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.itpw:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "rangga@gmail.com"
+    }, {
+      "id": "09b83d94-11dd-48f0-a266-99d1b72176ef",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.itpw:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a6fceb4-b927-4a44-8747-7469a6a636ca",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.itpw:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "rngsaputra@gmail.com"
+    }, {
+      "id": "123ab452-8e5c-4689-b535-63d2f1bd836f",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=.its", "css:finder"],
+        ["xpath=//input[@name='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div/form/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b37909e-95d5-4f37-b28c-c27186ccf987",
+      "comment": "",
+      "command": "click",
+      "target": "css=.center1",
+      "targets": [
+        ["css=.center1", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "355afdf3-6021-4b74-87be-30406fc0f156",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.center1",
+      "targets": [
+        ["css=.center1", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": "Email atau Password yang anda masukan salah!\\nPercobaan tersisa 2x"
+    }, {
+      "id": "e4701e98-e771-49f9-9ea1-6908d58137bd",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f0eebe3b-c50b-4d15-b65d-6376580e60c5",
+    "name": "Peringatan login 1x lagi",
+    "commands": [{
+      "id": "81111ded-908e-4906-9384-77554b01614e",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/perhitungan-nilai/login.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c42b78f6-6b2a-41e6-850a-02e0be462356",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x846",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "273ba879-b7bb-4487-be39-37217b95d739",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.itpw:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "309794e4-3153-4be7-8268-8d0f70c38e1c",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.itpw:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "rangga@gmail.com"
+    }, {
+      "id": "c30781c9-d836-46f4-8243-7be53e9bb893",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.itpw:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4256761c-56cf-4476-90f7-1f921a62c639",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.itpw:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "rangga@gmail.com"
+    }, {
+      "id": "ede7243f-c3be-4da9-9cf1-b1ebd4833263",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=.its", "css:finder"],
+        ["xpath=//input[@name='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div/form/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5edb5842-816c-482e-80c3-5b83ac37f361",
+      "comment": "",
+      "command": "click",
+      "target": "css=.center1",
+      "targets": [
+        ["css=.center1", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bcf6296-7495-426f-bea7-db6af78c249e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.center1",
+      "targets": [
+        ["css=.center1", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": "Email atau Password yang anda masukan salah!\\nPercobaan tersisa 1x"
+    }, {
+      "id": "ed0dae75-6f8d-4cbb-82fd-de625fed5dfc",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a3f8158a-e0b9-4039-856e-91a89afbdc2e",
+    "name": "Halaman error bot",
+    "commands": [{
+      "id": "0e3c686f-a0cd-4810-a477-e2a9920ffe93",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/perhitungan-nilai/login.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "393b683d-4651-4a7f-83ad-e66f869dd712",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1054x848",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fedc7224-3cf6-4ec3-920b-8deec659947c",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.itpw:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39c92b53-74e7-448a-8cb6-90ecc41de010",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.itpw:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "rngsaputra@gmail.com"
+    }, {
+      "id": "fc73e879-8f64-4dd4-8609-053c00068717",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.itpw:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f88b7ac1-8d36-43c5-92d6-cb621016d3c0",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.itpw:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "rangga@gmail.com"
+    }, {
+      "id": "9355771d-c0e4-4f3d-9159-0c1ae59cb015",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=.its", "css:finder"],
+        ["xpath=//input[@name='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div/form/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5e1efaa-cb9f-4b0f-b0e5-b9ccbaba747d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.center",
+      "targets": [
+        ["css=.center", "css:finder"],
+        ["xpath=//div", "xpath:position"],
+        ["xpath=//div[contains(.,'Anda dianggap sebagai BOT!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d76175f9-b3ac-4038-af0b-f7e66d56e0d8",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Anda dianggap sebagai BOT!')]", "xpath:innerText"]
+      ],
+      "value": "Anda dianggap sebagai BOT!"
+    }, {
+      "id": "88020624-e59c-4c72-9f77-b0182043e0fa",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a0326b42-50a7-4a67-8e26-42a46030f445",
+    "name": "Halaman nilai matkul",
+    "commands": [{
+      "id": "b04d7fca-1262-42c4-a5a4-113b5a1bbf71",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/perhitungan-nilai/login.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4291406-875c-4364-b960-4f51e24a030b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1054x848",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a92e48dd-3e25-41e7-b34e-96f43764aad1",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.itpw:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2496c8e6-a6f8-4127-b800-53a5e498a709",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.itpw:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "rngsaputra@gmail.com"
+    }, {
+      "id": "3b10494a-6b82-4849-82e0-f8d8a5535778",
+      "comment": "",
+      "command": "click",
+      "target": "css=.center",
+      "targets": [
+        ["css=.center", "css:finder"],
+        ["xpath=//div[@id='login']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "670ef828-f50a-4188-97b7-0053e7029aa0",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.itpw:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fca8933-1ccf-4755-ac5e-819c8f8aa555",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.itpw:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "rngsaputra@gmail.com"
+    }, {
+      "id": "6b349b85-43cd-4f06-ba44-bfa57029939d",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=.its", "css:finder"],
+        ["xpath=//input[@name='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div/form/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f43a17a6-c8c9-462a-a3f0-322d8eb6e295",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'FORM NILAI')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f322455-3434-43ab-aa88-5fc7469a95b1",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'FORM NILAI')]", "xpath:innerText"]
+      ],
+      "value": "FORM NILAI"
+    }, {
+      "id": "0ec9f803-92a2-456e-a95c-dd567d5cb576",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "97d062d4-0ed4-4566-844a-2a3e69ad170c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["680dc82d-3560-41f5-9c91-23395dda99b5"]
+  }],
+  "urls": ["http://localhost/perhitungan-nilai/login.php"],
+  "plugins": []
+}

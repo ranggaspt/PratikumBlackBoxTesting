@@ -1,0 +1,380 @@
+{
+  "id": "47702846-f8d4-4307-bb15-ed09ec907cdf",
+  "version": "2.0",
+  "name": "Boundary Value Analysis",
+  "url": "http://localhost/perhitungan-nilai/nilai_matkul.php",
+  "tests": [{
+    "id": "8eb8b33e-82f7-496e-932d-b318ac491c73",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "304005e1-a8bf-47e0-9dc9-0a1bc7382bad",
+    "name": "BVC",
+    "commands": [{
+      "id": "4a22aacc-50c5-4c85-b212-78c313454c70",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/perhitungan-nilai/nilai_matkul.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "999628d9-73b9-43d8-aafc-979283de88e3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x864",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0d92cc5-633d-4147-98de-a0ebdd7799c5",
+      "comment": "",
+      "command": "click",
+      "target": "name=kehadiran",
+      "targets": [
+        ["name=kehadiran", "name"],
+        ["css=.itpw:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='kehadiran']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7badfea-a9f7-428a-8af2-6e9218a206b2",
+      "comment": "",
+      "command": "type",
+      "target": "name=kehadiran",
+      "targets": [
+        ["name=kehadiran", "name"],
+        ["css=.itpw:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='kehadiran']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "50"
+    }, {
+      "id": "cac547a2-062b-45b0-98dc-c34191e7a3b3",
+      "comment": "",
+      "command": "click",
+      "target": "name=uts",
+      "targets": [
+        ["name=uts", "name"],
+        ["css=.itpw:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='uts']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63dd3bff-37d9-4b0f-8040-a832a2215b24",
+      "comment": "",
+      "command": "type",
+      "target": "name=uts",
+      "targets": [
+        ["name=uts", "name"],
+        ["css=.itpw:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='uts']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "50"
+    }, {
+      "id": "a2d66d6d-6596-4e26-b22d-637d6eb42f9f",
+      "comment": "",
+      "command": "click",
+      "target": "name=uas",
+      "targets": [
+        ["name=uas", "name"],
+        ["css=.itpw:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='uas']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f726b321-b49c-4612-88f9-16e212b5b19a",
+      "comment": "",
+      "command": "type",
+      "target": "name=uas",
+      "targets": [
+        ["name=uas", "name"],
+        ["css=.itpw:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='uas']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "99"
+    }, {
+      "id": "dc42099a-09c5-4055-9a0c-37e070bb97f4",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=.its", "css:finder"],
+        ["xpath=//input[@name='submit']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4df699f-6ef0-49f3-b28d-8f086d283424",
+      "comment": "",
+      "command": "click",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'72.05 - B - Lulus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ac1871f-cabf-4c08-bec7-dd4efae3f678",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'72.05 - B - Lulus')]", "xpath:innerText"]
+      ],
+      "value": "72.05 - B - Lulus"
+    }, {
+      "id": "6433248f-8ff0-47a3-be73-1bf86c31e936",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "60f90f7a-b017-49ce-a055-d9b1f3d901c9",
+    "name": "RTM",
+    "commands": [{
+      "id": "911e06c7-a411-456f-a405-8c9f35e2303f",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/perhitungan-nilai/nilai_matkul.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9bfa799f-2daf-483d-94ae-a0ea08cb30d4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x864",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f6c8e5a-4e26-49cd-a0b7-df3827c8084b",
+      "comment": "",
+      "command": "click",
+      "target": "name=kehadiran",
+      "targets": [
+        ["name=kehadiran", "name"],
+        ["css=.itpw:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='kehadiran']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7154305f-28db-4ee6-9ea1-54f603e4c7f4",
+      "comment": "",
+      "command": "type",
+      "target": "name=kehadiran",
+      "targets": [
+        ["name=kehadiran", "name"],
+        ["css=.itpw:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='kehadiran']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "50"
+    }, {
+      "id": "9573afc3-84a9-475f-80aa-66a8f35f264b",
+      "comment": "",
+      "command": "click",
+      "target": "name=uts",
+      "targets": [
+        ["name=uts", "name"],
+        ["css=.itpw:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='uts']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbe43220-effa-4c16-be30-9619b5199990",
+      "comment": "",
+      "command": "type",
+      "target": "name=uts",
+      "targets": [
+        ["name=uts", "name"],
+        ["css=.itpw:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='uts']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "50"
+    }, {
+      "id": "6840c370-9139-464d-9dac-55d5fa7aed9e",
+      "comment": "",
+      "command": "click",
+      "target": "name=uas",
+      "targets": [
+        ["name=uas", "name"],
+        ["css=.itpw:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='uas']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6ecea3c-326a-4bd7-a06c-ed2b81eb0441",
+      "comment": "",
+      "command": "type",
+      "target": "name=uas",
+      "targets": [
+        ["name=uas", "name"],
+        ["css=.itpw:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='uas']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "101"
+    }, {
+      "id": "41e5bed8-0ad7-4c5f-9395-c80e9b4a5319",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c4043b4b-4aa0-44e6-91ae-fec6b6a1eb5e",
+    "name": "WTM",
+    "commands": [{
+      "id": "683cb736-99aa-4233-ade6-3ea7403eb4e9",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/perhitungan-nilai/nilai_matkul.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f0c12cf-9ffd-4c68-8b8f-20ffd2959f6f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x864",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "512525e6-7299-4333-b711-b9d7a009682f",
+      "comment": "",
+      "command": "click",
+      "target": "name=kehadiran",
+      "targets": [
+        ["name=kehadiran", "name"],
+        ["css=.itpw:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='kehadiran']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f481f80-b989-4ae7-8cf9-8766c5e69e5a",
+      "comment": "",
+      "command": "type",
+      "target": "name=kehadiran",
+      "targets": [
+        ["name=kehadiran", "name"],
+        ["css=.itpw:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='kehadiran']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "5f2e242d-85b5-4ac1-98a9-14c458a4866b",
+      "comment": "",
+      "command": "click",
+      "target": "name=uts",
+      "targets": [
+        ["name=uts", "name"],
+        ["css=.itpw:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='uts']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32257ada-4c18-4a4e-b9a8-a193d00261c0",
+      "comment": "",
+      "command": "type",
+      "target": "name=uts",
+      "targets": [
+        ["name=uts", "name"],
+        ["css=.itpw:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='uts']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "da57b919-7a53-4fd7-b6b8-0197d37e10a8",
+      "comment": "",
+      "command": "click",
+      "target": "name=uas",
+      "targets": [
+        ["name=uas", "name"],
+        ["css=.itpw:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='uas']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca60ba84-da0e-499a-97e2-0723a806b391",
+      "comment": "",
+      "command": "type",
+      "target": "name=uas",
+      "targets": [
+        ["name=uas", "name"],
+        ["css=.itpw:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='uas']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "112db542-3573-4caf-9f35-fee71d709eb9",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=.its", "css:finder"],
+        ["xpath=//input[@name='submit']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e4975fc-43b0-470e-8fd1-04891e196dc6",
+      "comment": "",
+      "command": "click",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'1 - E - Tidak Lulus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6c27dee-a814-4120-998f-8ccdc53ee8fc",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'1 - E - Tidak Lulus')]", "xpath:innerText"]
+      ],
+      "value": "1 - E - Tidak Lulus"
+    }, {
+      "id": "f1c99304-cec4-4638-a937-73eebbf55565",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6f47fff5-dd97-4dbb-b2bd-77fee6a160c2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8eb8b33e-82f7-496e-932d-b318ac491c73"]
+  }],
+  "urls": ["http://localhost/perhitungan-nilai/nilai_matkul.php"],
+  "plugins": []
+}
